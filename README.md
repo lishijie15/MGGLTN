@@ -1,12 +1,11 @@
-## MGGLTN: Meta Guided-Graph Light-weight TimesNet for Traffic Prediction
+## Meta Guided-Graph Lightweight TimesNet for Traffic Prediction in Vehicular Networks
 
 ### Introduction of Our Model
 
-* We propose a novel high-performance light-weight traffic flow prediction model, aiming to enhance prediction accuracy by effectively decoupling the temporal and spatial heterogeneity of traffic flow. 
-* We construct the GCNTimes module that captures the intricate spatio-temporal features of traffic flow in a high-dimensional manner. We explore feature correlations within and across different time periods through frequency domain analysis, and then utilize a meta guided graph to memorize and query spatial features at vary time steps. 
-* We integrate light-weight depthwise separable convolutions into the GCNTimes module, to optimize computational efficiency while adapting diverse traffic flow prediction tasks.
-
-
+* To enhance prediction accuracy by effectively decoupling the temporal and spatial heterogeneity of traffic flow, we propose a novel high-performance lightweight traffic flow prediction model that can provide guidance support to CVs.
+* To capture the intricate spatio-temporal features of traffic flow, we design the GCNLTimes module, which leverages GCN to extract spatial correlations and LTimes, with consideration for time-frequency domain characteristics, to extract temporal correlations.
+* To decouple the spatio-temporal heterogeneity of traffic flow, we introduce a novel meta guided-graph library that selectively memorizes and queries spatial features at different time steps, thereby analyzing the time-varying node characteristics.
+* To optimize computational efficiency and enhance adaptability to diverse traffic flow prediction tasks, while also providing accurate real-time data to CVs, we integrate lightweight depthwise separable convolutions into the GCNLTimes module. The proposed MGGLTN achieves state-of-the-art (SOTA) performance across various datasets.
 
 ### Experiments Results
 
