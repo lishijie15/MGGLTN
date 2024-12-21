@@ -42,7 +42,7 @@
 
 #### Datasets
 
-We conducted experiments on three different datasets (i.e., METR-LA, REMS-BAY, EXPY-TKY). You can find the datasets we used in the directory labeled as https://github.com/deepkashiwa20/MegaCRN.
+We conducted experiments on three different datasets (i.e., METR-LA, REMS-BAY, EXPY-TKY).
 
 
 
